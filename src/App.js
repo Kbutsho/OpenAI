@@ -46,7 +46,7 @@ function App() {
             disabled={loading || prompt.length === 0}
             className="btn"
           >
-            {loading ? "Generating..." : "Generate"}
+            {loading ? "Generating... Please wait" : "Generate"}
           </button>
 
           <pre className="result">{result}</pre>
