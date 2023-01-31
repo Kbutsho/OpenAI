@@ -3,6 +3,7 @@
     background: linear-gradient(180deg, #343E4D, #131A29);
 }
 .app{
+    padding: 20px 0;
     display: flex;
     justify-content: center;
     align-items: center;
